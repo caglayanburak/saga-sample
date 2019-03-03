@@ -1,0 +1,14 @@
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/obj/Debug/netcoreapp2.2/LCSaga.csprojAssemblyReference.cache
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/obj/Debug/netcoreapp2.2/LCSaga.csproj.CoreCompileInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/obj/Debug/netcoreapp2.2/LCSaga.AssemblyInfoInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/obj/Debug/netcoreapp2.2/LCSaga.AssemblyInfo.cs
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/bin/Debug/netcoreapp2.2/LCSaga.deps.json
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/bin/Debug/netcoreapp2.2/LCSaga.runtimeconfig.json
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/bin/Debug/netcoreapp2.2/LCSaga.runtimeconfig.dev.json
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/bin/Debug/netcoreapp2.2/LCSaga.dll
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/bin/Debug/netcoreapp2.2/LCSaga.pdb
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/bin/Debug/netcoreapp2.2/Commonlib.dll
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/bin/Debug/netcoreapp2.2/Commonlib.pdb
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/obj/Debug/netcoreapp2.2/LCSaga.csproj.CopyComplete
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/obj/Debug/netcoreapp2.2/LCSaga.dll
+/Users/burakcaglayan/Projects/SagaSample/LCSaga/obj/Debug/netcoreapp2.2/LCSaga.pdb

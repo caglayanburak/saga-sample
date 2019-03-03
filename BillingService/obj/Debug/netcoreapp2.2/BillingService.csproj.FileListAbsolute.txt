@@ -1,0 +1,14 @@
+/Users/burakcaglayan/Projects/SagaSample/BillingService/obj/Debug/netcoreapp2.2/BillingService.csprojAssemblyReference.cache
+/Users/burakcaglayan/Projects/SagaSample/BillingService/obj/Debug/netcoreapp2.2/BillingService.csproj.CoreCompileInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/BillingService/obj/Debug/netcoreapp2.2/BillingService.AssemblyInfoInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/BillingService/obj/Debug/netcoreapp2.2/BillingService.AssemblyInfo.cs
+/Users/burakcaglayan/Projects/SagaSample/BillingService/bin/Debug/netcoreapp2.2/BillingService.deps.json
+/Users/burakcaglayan/Projects/SagaSample/BillingService/bin/Debug/netcoreapp2.2/BillingService.runtimeconfig.json
+/Users/burakcaglayan/Projects/SagaSample/BillingService/bin/Debug/netcoreapp2.2/BillingService.runtimeconfig.dev.json
+/Users/burakcaglayan/Projects/SagaSample/BillingService/bin/Debug/netcoreapp2.2/BillingService.dll
+/Users/burakcaglayan/Projects/SagaSample/BillingService/bin/Debug/netcoreapp2.2/BillingService.pdb
+/Users/burakcaglayan/Projects/SagaSample/BillingService/bin/Debug/netcoreapp2.2/Commonlib.dll
+/Users/burakcaglayan/Projects/SagaSample/BillingService/bin/Debug/netcoreapp2.2/Commonlib.pdb
+/Users/burakcaglayan/Projects/SagaSample/BillingService/obj/Debug/netcoreapp2.2/BillingService.csproj.CopyComplete
+/Users/burakcaglayan/Projects/SagaSample/BillingService/obj/Debug/netcoreapp2.2/BillingService.dll
+/Users/burakcaglayan/Projects/SagaSample/BillingService/obj/Debug/netcoreapp2.2/BillingService.pdb

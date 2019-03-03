@@ -1,0 +1,17 @@
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/bin/Debug/netcoreapp2.2/OrderUI.deps.json
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/bin/Debug/netcoreapp2.2/OrderUI.runtimeconfig.json
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/bin/Debug/netcoreapp2.2/OrderUI.runtimeconfig.dev.json
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/bin/Debug/netcoreapp2.2/OrderUI.dll
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/bin/Debug/netcoreapp2.2/OrderUI.pdb
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/bin/Debug/netcoreapp2.2/CommonLib.dll
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/bin/Debug/netcoreapp2.2/CommonLib.pdb
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.csprojAssemblyReference.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.csproj.CoreCompileInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.RazorAssemblyInfo.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.RazorAssemblyInfo.cs
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.AssemblyInfoInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.AssemblyInfo.cs
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.RazorTargetAssemblyInfo.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.csproj.CopyComplete
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.dll
+/Users/burakcaglayan/Projects/SagaSample/OrderUI/obj/Debug/netcoreapp2.2/OrderUI.pdb

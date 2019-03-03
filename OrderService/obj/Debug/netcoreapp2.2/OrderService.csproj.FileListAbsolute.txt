@@ -1,0 +1,14 @@
+/Users/burakcaglayan/Projects/SagaSample/OrderService/obj/Debug/netcoreapp2.2/OrderService.csprojAssemblyReference.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderService/obj/Debug/netcoreapp2.2/OrderService.csproj.CoreCompileInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderService/obj/Debug/netcoreapp2.2/OrderService.AssemblyInfoInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/OrderService/obj/Debug/netcoreapp2.2/OrderService.AssemblyInfo.cs
+/Users/burakcaglayan/Projects/SagaSample/OrderService/bin/Debug/netcoreapp2.2/OrderService.deps.json
+/Users/burakcaglayan/Projects/SagaSample/OrderService/bin/Debug/netcoreapp2.2/OrderService.runtimeconfig.json
+/Users/burakcaglayan/Projects/SagaSample/OrderService/bin/Debug/netcoreapp2.2/OrderService.runtimeconfig.dev.json
+/Users/burakcaglayan/Projects/SagaSample/OrderService/bin/Debug/netcoreapp2.2/OrderService.dll
+/Users/burakcaglayan/Projects/SagaSample/OrderService/bin/Debug/netcoreapp2.2/OrderService.pdb
+/Users/burakcaglayan/Projects/SagaSample/OrderService/bin/Debug/netcoreapp2.2/Commonlib.dll
+/Users/burakcaglayan/Projects/SagaSample/OrderService/bin/Debug/netcoreapp2.2/Commonlib.pdb
+/Users/burakcaglayan/Projects/SagaSample/OrderService/obj/Debug/netcoreapp2.2/OrderService.csproj.CopyComplete
+/Users/burakcaglayan/Projects/SagaSample/OrderService/obj/Debug/netcoreapp2.2/OrderService.dll
+/Users/burakcaglayan/Projects/SagaSample/OrderService/obj/Debug/netcoreapp2.2/OrderService.pdb

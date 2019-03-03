@@ -1,0 +1,9 @@
+/Users/burakcaglayan/Projects/SagaSample/CommonLib/bin/Debug/netstandard2.0/CommonLib.deps.json
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/bin/Debug/netstandard2.0/CommonLib.dll
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/bin/Debug/netstandard2.0/CommonLib.pdb
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/obj/Debug/netstandard2.0/CommonLib.csprojAssemblyReference.cache
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/obj/Debug/netstandard2.0/CommonLib.csproj.CoreCompileInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/obj/Debug/netstandard2.0/CommonLib.AssemblyInfoInputs.cache
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/obj/Debug/netstandard2.0/CommonLib.AssemblyInfo.cs
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/obj/Debug/netstandard2.0/CommonLib.dll
+/Users/burakcaglayan/Projects/SagaSample/Commonlib/obj/Debug/netstandard2.0/CommonLib.pdb
