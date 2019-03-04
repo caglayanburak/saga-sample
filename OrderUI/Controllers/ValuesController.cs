@@ -18,19 +18,6 @@ namespace OrderUI.Controllers
         public OrderController(IBusControl bus)
         {
             _bus = bus;
-            // var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
-            // {
-            //     var host = cfg.Host(new Uri("rabbitmq://localhost/"), h =>
-            //       {
-            //           h.Username("guest");
-            //           h.Password("guest");
-            //       });
-
-            // });
-            // var sendToUri = new Uri($"rabbitmq://localhost/sagasample");
-            // busControl.Start();
-            // _bus = busControl.GetSendEndpoint(sendToUri).Result;
-
         }
 
         // GET: Order
