@@ -33,9 +33,13 @@ namespace OrderUI
                 {
                     var host = cfg.Host(new Uri("rabbitmq://localhost/"), h => { });
 
-                    cfg.ReceiveEndpoint(host, "trendyol_saga", e =>
+                    cfg.ReceiveEndpoint(host, "trendyol_saga_state", e =>
                           {
-                              e.PrefetchCount = 16;
+                              e.PrefetchCount = 4;
+                              e.Durable = false;
+                              e.AutoDelete = true;
+                              e.ExchangeType = "direct";
+                              //   e.AutoDelete = true;
                               EndpointConvention.Map<OrderModel>(e.InputAddress);
                           });
                 }));

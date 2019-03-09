@@ -18,17 +18,17 @@ namespace OrderUI.Controllers
         public OrderController(IBusControl bus)
         {
             _bus = bus;
+            _bus.Start();
         }
 
         // GET: Order
         [HttpGet]
-        public IActionResult Index(string code)
+        public IActionResult Index(string code,int id)
         {
             OrderModel orderModel = new OrderModel();
             orderModel.OrderCode = code;
-            orderModel.OrderId = 1;
+            orderModel.OrderId = id;
             orderModel.CorrelationId = Guid.NewGuid();
-            // if (orderModel.OrderId > 0)
             CreateOrder(orderModel);
 
             return Ok(orderModel);

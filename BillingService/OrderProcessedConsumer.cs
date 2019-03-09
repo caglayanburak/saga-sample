@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using MassTransit;
 using Commonlib;
+using System.Globalization;
 
 namespace BillingService
 {
@@ -11,7 +12,7 @@ namespace BillingService
         {
             var orderCommand = context.Message;
 
-            await Console.Out.WriteLineAsync($"BillingService:{DateTime.Now} Order code: {orderCommand.CorrelationId} Order id: {orderCommand.OrderId} is received.");
+            await Console.Out.WriteLineAsync($"BillingService: Order code: {orderCommand.CorrelationId} Order id: {orderCommand.OrderCode} is received.{DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture)}");
 
             //do something..
 

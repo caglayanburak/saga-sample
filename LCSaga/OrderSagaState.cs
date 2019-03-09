@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.Threading.Tasks;
 using Automatonymous;
 using Commonlib;
@@ -84,10 +85,10 @@ namespace LCSaga
                         context.Instance.CorrelationId = context.Data.CorrelationId;
                     })
                     .ThenAsync(
-                        context => Console.Out.WriteLineAsync($"{context.Data.OrderId} order id is received..")
+                        context => Console.Out.WriteLineAsync($"{context.Data.OrderCode} order id is received..{DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture)}")
                     )
-                    .Publish(context => new OrderReceivedEvent(context.Instance))
                     .TransitionTo(Received)
+                    .Publish(context => new OrderReceivedEvent(context.Instance))
                 );
 
 
@@ -100,7 +101,8 @@ namespace LCSaga
                     context.Instance.CorrelationId = context.Data.CorrelationId;
                 })
                 .ThenAsync(
-                    context => Console.Out.WriteLineAsync($"{context.Data.OrderId} order id is processed.."))
+                    context => Console.Out.WriteLineAsync($"{context.Data.OrderCode} ordercode is processed..{DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture)}"))
+                    .TransitionTo(Processed)
                 .Finalize()
                 );
 

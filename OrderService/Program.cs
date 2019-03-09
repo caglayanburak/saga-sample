@@ -17,7 +17,7 @@ namespace OrderService
         h.Password("guest");
     });
 
-    cfg.ReceiveEndpoint(host, "trendyol_saga", e =>
+    cfg.ReceiveEndpoint(host, "trendyol_saga_order", e =>
     {
         e.Consumer<OrderReceivedConsumer>();
     });

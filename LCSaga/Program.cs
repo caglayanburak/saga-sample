@@ -12,19 +12,23 @@ namespace LCSaga
             var orderSaga = new OrderSaga();
             var repo = new InMemorySagaRepository<OrderSagaState>();
 
- var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
-{
-  var host = cfg.Host(new Uri("rabbitmq://localhost/"), h =>
-  {
-      h.Username("guest");
-      h.Password("guest");
-  });
+            var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
+           {
+               var host = cfg.Host(new Uri("rabbitmq://localhost/"), h =>
+    {
+                 h.Username("guest");
+                 h.Password("guest");
+             });
 
-  cfg.ReceiveEndpoint(host, "trendyol_saga", e =>
-  {
-      e.StateMachineSaga(orderSaga, repo);
-  });
-  cfg.UseInMemoryOutbox();
+               cfg.ReceiveEndpoint(host, "trendyol_saga_state", e =>
+    {
+                 e.PrefetchCount = 4;
+                 e.Durable = false;
+                 e.AutoDelete = true;
+                 e.ExchangeType = "direct";
+                 e.StateMachineSaga(orderSaga, repo);
+             });
+    //   cfg.UseInMemoryOutbox();
 });
             busControl.Start();
 

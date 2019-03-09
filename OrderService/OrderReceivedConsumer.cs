@@ -2,16 +2,17 @@ using System;
 using System.Threading.Tasks;
 using MassTransit;
 using Commonlib;
+using System.Globalization;
 
 namespace OrderService
 {
-    public class OrderReceivedConsumer : IConsumer<OrderModel>
+    public class OrderReceivedConsumer : IConsumer<IOrderReceivedEvent>
     {
-        public async Task Consume(ConsumeContext<OrderModel> context)
+        public async Task Consume(ConsumeContext<IOrderReceivedEvent> context)
         {
             var orderCommand = context.Message;
 
-            await Console.Out.WriteLineAsync($"OrderService: {DateTime.Now}Order code: {orderCommand.CorrelationId} Order id: {orderCommand.OrderId} is received.");
+            await Console.Out.WriteLineAsync($"OrderService:Order code: {orderCommand.CorrelationId} Order id: {orderCommand.OrderCode} is received.{DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture)}");
 
             //do something..
 

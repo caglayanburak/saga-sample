@@ -7,21 +7,21 @@ namespace BillingService
     {
         static void Main(string[] args)
         {
-            Console.Title = "BillingService";
+            Console.WriteLine("Order Billing Start");
 
             var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
-{
-  var host = cfg.Host(new Uri("rabbitmq://localhost/"), h =>
-  {
-      h.Username("guest");
-      h.Password("guest");
-  });
+            {
+                var host = cfg.Host(new Uri("rabbitmq://localhost/"), h =>
+                {
+                    h.Username("guest");
+                    h.Password("guest");
+                });
 
-  cfg.ReceiveEndpoint(host, "trendyol_saga", e =>
-  {
-      e.Consumer<OrderProcessedConsumer>();
-  });
-});
+                cfg.ReceiveEndpoint(host, "trendyol_saga_order", e =>
+                    {
+                        e.Consumer<OrderProcessedConsumer>();
+                    });
+            });
             busControl.Start();
             Console.ReadLine();
         }
